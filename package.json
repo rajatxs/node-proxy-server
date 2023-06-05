@@ -1,0 +1,30 @@
+{
+  "name": "node-proxy-server",
+  "version": "1.0.0",
+  "description": "Simple HTTP Proxy Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "env-cmd node server.js"
+  },
+  "type": "module",
+  "keywords": [
+    "proxy-server",
+    "http-proxy"
+  ],
+  "author": {
+    "name": "Rajat Sharma",
+    "email": "rxx175@gmail.com",
+    "url": "https://github.com/rajatxs"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "env-cmd": "^10.1.0"
+  },
+  "dependencies": {
+    "@rxpm/logger": "^2.0.2",
+    "http-proxy": "^1.18.1",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
